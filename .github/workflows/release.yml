@@ -9,6 +9,9 @@ on:
 
 name: release
 
+permissions:
+  contents: read
+
 jobs:
   pypi-publish:
     name: upload release to PyPI
