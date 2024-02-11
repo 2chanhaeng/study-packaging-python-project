@@ -7,7 +7,7 @@ packages = ["src/chomu_functional"]
 
 [project]
 name = "study_packaging_python_project"
-version = "0.0.4"
+version = "0.0.5"
 authors = [{ name = "Lee ChanHaeng", email = "2chanhaeng@gmail.com" }]
 description = "Python packaging study and practice"
 readme = "README.md"

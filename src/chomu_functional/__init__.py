@@ -1,1 +1,21 @@
-from .example import add, div, mod, mul, sub
+__all__ = ["add", "sub", "mul", "div", "mod"]
+
+
+def add(a):
+    return lambda b: b + a
+
+
+def sub(a):
+    return lambda b: b - a
+
+
+def mul(a):
+    return lambda b: b * a
+
+
+def div(a):
+    return lambda b: b / a
+
+
+def mod(a):
+    return lambda b: b % a
